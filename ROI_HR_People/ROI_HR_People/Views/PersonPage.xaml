@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ROI_HR_People.Views.PersonPage">
+    <ScrollView>
+    <StackLayout VerticalOptions="StartAndExpand">
+        <Label Text="Id" />
+        <Entry x:Name="idEntry" Text="{Binding Path=Id}" Placeholder="Id" />
+        <Label Text="Name" />
+        <Entry x:Name="nameEntry" Text="{Binding Path=Name}" Placeholder="Name" />
+        <Label Text="Phone" />
+        <Entry x:Name="phoneEntry" Text="{Binding Path=Phone}" Placeholder="Phone" />
+        <Label Text="Department" />
+        <Entry x:Name="departmentEntry" Text="{Binding Path=Department}" Placeholder="Department" />
+        <Label Text="Street" />
+        <Entry x:Name="streetEntry" Text="{Binding Path=Street}"  Placeholder="Street" />
+        <Label Text="City" />
+        <Entry x:Name="cityEntry" Text="{Binding Path=City}" Placeholder="City" />
+        <Label Text="State" />
+        <Entry x:Name="stateEntry" Text="{Binding Path=State}" Placeholder="State" />
+        <Label Text="Zip" />
+        <Entry x:Name="zipEntry" Text="{Binding Path=Zip}" Placeholder="Zip" />
+        <Label Text="Country" />
+        <Entry x:Name="countryEntry" Text="{Binding Path=Country}" Placeholder="Country" />
+        <Button Text="Save" Clicked="OnSaveActivated" />
+        <Button Text="Delete" Clicked="OnDeleteActivated" />
+        <Button Text="Cancel" Clicked="OnCancelActivated" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

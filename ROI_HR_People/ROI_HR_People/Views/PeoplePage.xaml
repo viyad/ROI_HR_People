@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ROI_HR_People.Views.PeoplePage"
+             x:Name="PeopleContentPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="TitleStyle1" TargetType="Label">
+                <Setter Property="TextColor" Value="#262626" />
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="TitleStyle2" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+
+            <Style x:Key="settingsLabelStyle" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+            <Style x:Key="listviewLabelStyle1" TargetType="Label">
+                <Setter Property="TextColor" Value="#000" />
+                <Setter Property="FontSize" Value="17" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="listviewLabelStyle2" TargetType="Label">
+                <Setter Property="TextColor" Value="#fff" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnAddPersonClicked">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="ImageSource">
+                    <On Platform="Android, UWP" Value="plus.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem Text="Theme 1" Order="Secondary" Clicked="OnItem_Clicked" />
+        <ToolbarItem Text="Theme 2" Order="Secondary" Clicked="OnItem_Clicked" />
+        <ToolbarItem Text="Help" Order="Secondary" Clicked="OnItem_Clicked" />
+        <ToolbarItem Text="FAQ" Order="Secondary" Clicked="OnItem_Clicked" />
+
+
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="0,10,0,0">
+        <Image x:Name="imgLogo"></Image>
+        <Label Text="Staff contact management" Style="{DynamicResource DynamicTitleStyle}" Margin="10" HorizontalTextAlignment="Center" />
+        <ScrollView>
+            <ListView x:Name="listView" ItemSelected="OnPersonSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="20,0,0,0" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                <Label x:Name="lblId" Text="{Binding Id}" Style="{DynamicResource DynamicSettingsLabelStyle}" VerticalTextAlignment="Center" />
+                                <Label x:Name="lblName" Text="{Binding Name}" Style="{DynamicResource DynamicSettingsLabelStyle}" VerticalTextAlignment="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

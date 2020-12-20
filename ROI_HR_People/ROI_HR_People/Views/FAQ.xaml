@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ROI_HR_People.Views.FAQ">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section1">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Frequently asked questions" HorizontalOptions="Start" FontSize="17" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Label Text="1. What are the themes on the menu bar for?" HorizontalOptions="Start" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5" >
+                            <Label Text="The themes on the menu bar are a set of background color and font size setup. It is useful for setting the look and feel of the screen to suit your needs. There currently are 2 themes provided with this application." />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5" >
+                            <Label Text="The first theme is in colour. It is a normal mode. The font size is in the standard size which is suitable and comfortable for everybody to use." />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5" >
+                            <Label Text="The second theme is in black and white and the font size is enlarged. The black and white theme for this application is simple, clean, beautiful black and doesn't hurt your eyes. " HorizontalOptions="Start" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Label Text="2. How can I make the font size bigger?" HorizontalOptions="Start" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5" >
+                            <Label Text="You can set the font size bigger by selecting the theme on the top right corner of the toolbar. The font of Theme 2 is bigger than theme 1 and you will feel more comfortable looking at the screen when you need to spend a long period of time looking at the screen because of its black and white tone. " HorizontalOptions="Start" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Label Text="3. How do I learning how to use functions on this application?" HorizontalOptions="Start" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="You can preview our online help which is provided on the top right corner of the toolbar by clicking at the [Help] dropdown menu." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

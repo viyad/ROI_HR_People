@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ROI_HR_People.Views.ManualPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section1">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="How to add a new staff contact" HorizontalOptions="Start" FontSize="17" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="1. Click on the + sign on the top right corner of the toolbar." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen1.png" />
+                </StackLayout>
+
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section1_1">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="2. Enter Id, Name, Phone, Deparment, Street, City, State, Zip, and Country in the provided entries." HorizontalOptions="Start" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="3. You can scroll down to see more contact details." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen1_1.png" />
+                </StackLayout>
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section1_2">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="4. Click on [Save] button to add the new staff." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen1_2.png" />
+                </StackLayout>
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section1_3">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="5. You will see a confirmation message that you have successfully added the staff contact." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="SaveOK.png" />
+                </StackLayout>
+
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section2">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="How to update a staff contact" HorizontalOptions="Start" FontSize="17" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="1. Click on the staff name." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen2.png" />
+                </StackLayout>
+
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section2_1">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="2. Update the details of the staff." HorizontalOptions="Start" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="3. You can scroll down to see more contact details." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen2_1.png" />
+                </StackLayout>
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section2_2">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="4. Click on [Save] button to update the staff contact." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen2_2.png" />
+                </StackLayout>
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section2_3">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="5. You will see a confirmation message that you have successfully updated the staff contact." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="UpdateOK.png" />
+                </StackLayout>
+
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section3">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="How to delete a staff contact" HorizontalOptions="Start" FontSize="17" FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="1. Click on the staff name." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen2.png" />
+                </StackLayout>
+
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section3_1">
+
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="2. You can scroll down to see more contact details." HorizontalOptions="Start" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="3. Click on [Delete] button to delete the staff contact." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="Screen3_1.png" />
+                </StackLayout>
+
+                <StackLayout Spacing="10" Padding="5" Margin="20" Orientation="Vertical" x:Name="section3_2">
+                    <StackLayout Spacing="5" HorizontalOptions="FillAndExpand" WidthRequest="1000">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="4. You will see a confirmation message that you have successfully deleted the staff contact." HorizontalOptions="Start" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Image  Source="DeleteOK.png" />
+                </StackLayout>
+                
+                
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

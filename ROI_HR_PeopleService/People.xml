@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<People xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person Id="1">
+    <Name>John Smith</Name>
+    <Phone>02 9988 2211</Phone>
+    <Department>1</Department>
+    <Street>1 Code Lane</Street>
+    <City>Javaville</City>
+    <State>NSW</State>
+    <Zip>0100</Zip>
+    <Country>Australia</Country>
+  </Person>
+  <Person Id="2">
+    <Name>Sue White</Name>
+    <Phone>03 8899 2255</Phone>
+    <Department>2</Department>
+    <Street>16 Bit Way</Street>
+    <City>Byte Cove</City>
+    <State>QLD</State>
+    <Zip>1101</Zip>
+    <Country>Australia</Country>
+  </Person>
+  <Person Id="3">
+    <Name>Bob O’Bits</Name>
+    <Phone>05 7788 2255</Phone>
+    <Department>3</Department>
+    <Street>8 Silicon Road</Street>
+    <City>Cloud Hills</City>
+    <State>VIC</State>
+    <Zip>1001</Zip>
+    <Country>Australia</Country>
+  </Person>
+  <Person Id="4">
+    <Name>Mary Blue</Name>
+    <Phone>06 4455 9988</Phone>
+    <Department>2</Department>
+    <Street>4 Processor Boulevard</Street>
+    <City>Appletson</City>
+    <State>NT</State>
+    <Zip>1010</Zip>
+    <Country>Australia</Country>
+  </Person>
+  <Person Id="5">
+    <Name>Mick Green</Name>
+    <Phone>02 9988 1122</Phone>
+    <Department>3</Department>
+    <Street>700 Bandwidth Street</Street>
+    <City>Bufferland</City>
+    <State>NSW</State>
+    <Zip>0110</Zip>
+    <Country>Australia</Country>
+  </Person>
+</People>

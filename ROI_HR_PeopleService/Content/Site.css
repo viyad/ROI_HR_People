@@ -1,0 +1,112 @@
+﻿body {
+    font-family: Trebuchet, Calibri, Arial;
+    font-size: 15px;
+    color: #262626;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+header {
+    float: left;
+}
+
+header img {
+    margin-top: -50px;    
+    width: 190px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #c64c38; 
+    padding: 0.5em;
+    border-bottom: none;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color:  #c64c38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:active {
+    font-weight: bold;
+}
+
+.ROI-body-container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+article {
+    float: left;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 28pt;
+    color: #262626;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr th {
+    font-size: 13pt;
+    color: #000000;
+    background-color: #D9D9D9;
+    font-weight: normal;
+    text-align: center;
+}
+tr td {
+    padding-left: 7px;
+}
+
+.small-table {
+    width: 25%;
+}
+
+.medium-table {
+    width: 70%;
+}
+
+.big-table {
+    width: 100%;
+}
+
+footer {
+    font-size: 13pt;
+    margin-top: 10em;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (max-width: 600px) {
+	nav ul li a {text-align: center;}
+	article {width: 100%;}
+	body {font-size: 12px;}
+}
+
